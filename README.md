@@ -12,13 +12,13 @@ We have selected an extensive list of curated tools and libraries which we have 
 * Full typescript support
 
 **The stack mainly consists of:**
-* Meteor
-* React
-* React router
-* Tailwind
-* Typescript
+* [Meteor](https://meteor.com/)
+* [React](https://react.dev/)
+* [React Router](https://reactrouter.com/en/main)
+* [Tailwind](https://tailwindcss.com/)
+* [Typescript](https://www.typescriptlang.org/)
 
-**The following is all included by default:**
+**The following is also included by default:**
 * Authentication (login, logout, register, forgot-password, profile page)
 * Basic hackable navigation
 * Authenticated and unauthentiated routes and layouts
@@ -26,20 +26,20 @@ We have selected an extensive list of curated tools and libraries which we have 
 * Example page with data fetching
 * Simple admin backend with user management (invites and crud users)
 * CI config
-* Meteor Up
-* SSR
-* Email handling
-* File uploads
-* Relay (type-safe methods and publications)
-* Database schemas
-* Database relations
-* Database migrations
+* [Meteor Up](https://meteor-up.com/)
+* [Server-side Rendering](https://docs.meteor.com/packages/server-render.html) 
+* [Email handling](https://docs.meteor.com/api/email.html)
+* [File uploads](https://github.com/veliovgroup/Meteor-Files)
+* [Type-safe methods and publications](https://github.com/zodern/meteor-relay)
+* [Database schemas](https://github.com/Meteor-Community-Packages/meteor-collection2)
+* [Database relations](https://github.com/cult-of-coders/grapher)
+* [Database migrations](https://github.com/percolatestudio/meteor-migrations)
 * User roles
 * Forms
-* Storybooks
+* [Storybooks](https://storybook.js.org/)
 * Mocha testing
-* Mobile configs (Cordova)
-* Desktop configs (Electron)
+* [Mobile configs](https://guide.meteor.com/cordova)
+* [Desktop configs](https://github.com/Meteor-Community-Packages/meteor-desktop)
 
 ## Checklist:
 - [x] Meteor
