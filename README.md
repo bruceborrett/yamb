@@ -40,6 +40,8 @@ We have selected an extensive list of curated tools and libraries which we have 
 * Mocha testing
 * [Mobile configs](https://guide.meteor.com/cordova)
 * [Desktop configs](https://github.com/Meteor-Community-Packages/meteor-desktop)
+* [Prettier](https://prettier.io/)
+* [Editor Config](https://editorconfig.org/)
 
 ## Checklist:
 - [x] Meteor
@@ -68,3 +70,5 @@ We have selected an extensive list of curated tools and libraries which we have 
 - [ ] Mocha testing
 - [ ] Mobile configs (Cordova)
 - [ ] Desktop configs (Electron)
+- [ ] Prettier
+- [ ] Editor Config
