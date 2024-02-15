@@ -16,8 +16,8 @@ export const Info = () => {
   }
 
   return (
-    <div>
-      <h2>Learn Meteor!</h2>
+    <div className='p-4'>
+      <h2 className='pb-2 text-lg font-semibold'>Learn Meteor!</h2>
       <ul>{links.map(makeLink)}</ul>
     </div>
   );

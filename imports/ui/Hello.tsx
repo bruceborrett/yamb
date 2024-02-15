@@ -8,9 +8,9 @@ export const Hello = () => {
   };
 
   return (
-    <div>
-      <button onClick={increment}>Click Me</button>
-      <p>You've pressed the button {counter} times.</p>
+    <div className='p-4'>
+      <button className='px-3 py-2 rounded-lg border' onClick={increment}>Click Me</button>
+      <p className='p-4'>You've pressed the button {counter} times.</p>
     </div>
   );
 };
