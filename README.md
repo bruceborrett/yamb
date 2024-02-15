@@ -34,8 +34,8 @@ We have selected an extensive list of curated tools and libraries which we have 
 * [Database schemas](https://github.com/Meteor-Community-Packages/meteor-collection2)
 * [Database relations](https://github.com/cult-of-coders/grapher)
 * [Database migrations](https://github.com/percolatestudio/meteor-migrations)
-* User roles
-* Forms
+* [User roles](https://github.com/Meteor-Community-Packages/meteor-roles)
+* [Formik](https://formik.org/)
 * [Storybooks](https://storybook.js.org/)
 * [Mocha](https://mochajs.org/)
 * [Enzyme](https://enzymejs.github.io/enzyme/)
@@ -47,7 +47,7 @@ We have selected an extensive list of curated tools and libraries which we have 
 ## Checklist:
 - [x] Meteor
 - [x] React
-- [ ] React router
+- [x] React router
 - [x] Tailwind
 - [x] Typescript
 - [ ] Authentication (login, logout, register, forgot-password, profile page)
