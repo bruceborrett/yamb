@@ -2,7 +2,7 @@
 
 **!! This project is a work-in-progress, see checklist below !!**
 
-This boilerplate is designed to be a comprehensive starting point for any web/mobile/desktop application. It includes all the latest bells and whistles and takes care of all the boring repetitive parts of starting a new application. 
+This boilerplate is designed to be a comprehensive starting point for any web/mobile/desktop application. It includes all the latest bells and whistles and takes care of all the boring repetitive parts of starting a new application.
 
 We have selected an extensive list of curated tools and libraries which we have found to have the best developer experience together with the best documentation and community support.
 
@@ -27,7 +27,7 @@ We have selected an extensive list of curated tools and libraries which we have 
 * Simple admin backend with user management (invites and crud users)
 * CI config
 * [Meteor Up](https://meteor-up.com/)
-* [Server-side Rendering](https://docs.meteor.com/packages/server-render.html) 
+* [Server-side Rendering](https://docs.meteor.com/packages/server-render.html)
 * [Email handling](https://docs.meteor.com/api/email.html)
 * [File uploads](https://github.com/veliovgroup/Meteor-Files)
 * [Type-safe methods and publications](https://github.com/zodern/meteor-relay)
@@ -37,7 +37,8 @@ We have selected an extensive list of curated tools and libraries which we have 
 * User roles
 * Forms
 * [Storybooks](https://storybook.js.org/)
-* Mocha testing
+* [Mocha](https://mochajs.org/)
+* [Enzyme](https://enzymejs.github.io/enzyme/)
 * [Mobile configs](https://guide.meteor.com/cordova)
 * [Desktop configs](https://github.com/Meteor-Community-Packages/meteor-desktop)
 * [Prettier](https://prettier.io/)
@@ -56,7 +57,7 @@ We have selected an extensive list of curated tools and libraries which we have 
 - [ ] Example page with data fetching
 - [ ] Simple admin backend with user management (invites and crud users)
 - [ ] Gitlab CI config
-- [ ] Meteor Up
+- [x] Meteor Up
 - [ ] SSR
 - [ ] Email
 - [ ] File uploads
@@ -67,8 +68,9 @@ We have selected an extensive list of curated tools and libraries which we have 
 - [ ] User roles
 - [ ] Forms
 - [ ] Storybooks
-- [ ] Mocha testing
+- [ ] Mocha
+- [ ] Enzyme
 - [ ] Mobile configs (Cordova)
 - [ ] Desktop configs (Electron)
-- [ ] Prettier
-- [ ] Editor Config
+- [x] Prettier
+- [x] Editor Config
