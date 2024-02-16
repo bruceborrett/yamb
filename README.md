@@ -60,9 +60,9 @@ We have selected an extensive list of curated tools and libraries which we have 
 - [x] React router
 - [x] Tailwind
 - [x] Typescript
-- [ ] Authentication (login, logout, register, forgot-password, profile page)
-- [ ] Basic hackable navigation
-- [ ] Authenticated and unauthentiated routes and layouts
+- [x] Authentication (login, logout, register, forgot-password, profile page)
+- [x] Basic hackable navigation
+- [x] Authenticated and unauthentiated routes and layouts
 - [ ] Example Collection
 - [ ] Example page with data fetching
 - [ ] Simple admin backend with user management (invites and crud users)
@@ -75,7 +75,7 @@ We have selected an extensive list of curated tools and libraries which we have 
 - [ ] Database schemas
 - [ ] Database relations
 - [ ] Database migrations
-- [ ] User roles
+- [x] User roles
 - [x] Formik
 - [ ] Storybooks
 - [ ] Mocha
