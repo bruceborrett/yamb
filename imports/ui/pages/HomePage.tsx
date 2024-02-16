@@ -1,11 +1,14 @@
 import React from 'react';
-import { Hello } from '../components/Hello';
+
+import { CounterDemo } from '../components/CounterDemo';
 import { Info } from '../components/Info';
 
 export const HomePage = () => (
   <div className='pt-8 text-center'>
-    <h1 className='p-8 text-2xl font-semibold'>Welcome to Meteor!</h1>
-    <Hello />
+    <h1 className='text-2xl font-semibold'>
+      Welcome to Yet Another Meteor Boilerplate!
+    </h1>
+    <CounterDemo />
     <Info />
   </div>
 );
