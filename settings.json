@@ -1,5 +1,11 @@
 {
   "public": {
     "env": "development"
-  }
+  },
+  "adminEmail": "admin@example.com",
+  "adminPassword": "password",
+  "userRoles": [
+    "user",
+    "admin"
+  ]
 }
