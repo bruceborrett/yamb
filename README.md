@@ -44,6 +44,16 @@ We have selected an extensive list of curated tools and libraries which we have 
 * [Prettier](https://prettier.io/)
 * [Editor Config](https://editorconfig.org/)
 
+
+## How to use this repo
+
+* Clone the repository
+* Delete the .git folder
+* Optionally init new git repo with `git init`
+* Change the package name in package.json
+* Run `npm i`
+* Run `npm start`
+
 ## Checklist:
 - [x] Meteor
 - [x] React
@@ -66,7 +76,7 @@ We have selected an extensive list of curated tools and libraries which we have 
 - [ ] Database relations
 - [ ] Database migrations
 - [ ] User roles
-- [ ] Forms
+- [x] Formik
 - [ ] Storybooks
 - [ ] Mocha
 - [ ] Enzyme
