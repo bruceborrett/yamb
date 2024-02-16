@@ -47,14 +47,18 @@ We have selected an extensive list of curated tools and libraries which we have 
 
 ## How to use this repo
 
-* Clone the repository
-* Delete the .git folder
-* Optionally init new git repo with `git init`
-* Change the package name in package.json
-* Run `npm i`
-* Run `npm start`
+1. Clone the repository
+2. Delete the .git folder
+3. Optionally init new git repo with `git init`
+4. Change the package name in package.json
+5. Edit settings.json
+6. Edit title in /client/main.html
+7. Replace logo and favicon images in /public
+8. Run `npm i`
+9. Run `npm start`
+10. Delete / add / modify whatever you want
 
-## Checklist:
+## Checklist
 - [x] Meteor
 - [x] React
 - [x] React router
@@ -66,7 +70,7 @@ We have selected an extensive list of curated tools and libraries which we have 
 - [ ] Example Collection
 - [ ] Example page with data fetching
 - [ ] Simple admin backend with user management (invites and crud users)
-- [ ] Gitlab CI config
+- [ ] CI config
 - [x] Meteor Up
 - [ ] SSR
 - [ ] Email
