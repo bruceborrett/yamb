@@ -82,7 +82,7 @@ We have selected an extensive list of curated tools and libraries which we have 
 - [x] User roles
 - [x] Formik
 - [ ] Storybooks
-- [ ] Mocha
+- [x] Mocha
 - [ ] Enzyme
 - [ ] Mobile configs (Cordova)
 - [ ] Desktop configs (Electron)
