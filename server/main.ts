@@ -7,24 +7,24 @@ async function insertLink({ title, url }: { title: string; url: string }) {
   await LinksCollection.insertAsync({ title, url, createdAt: new Date() });
 }
 
-// Create user roles if they don't exist
-if (Roles.getAllRoles().count() === 0) {
-  Meteor.settings.userRoles.forEach((role: string) => {
-    Roles.createRole(role);
-  });
-}
-
-// Create admin user if one doesn't exist
-if (Meteor.users.find().count() === 0) {
-  const user = Accounts.createUser({
-    email: Meteor.settings.adminEmail,
-    password: Meteor.settings.adminPassword,
-  });
-
-  Roles.addUsersToRoles(user, 'admin');
-}
-
 Meteor.startup(async () => {
+  // Create user roles if they don't exist
+  if (Roles.getAllRoles().count() === 0) {
+    Meteor.settings.userRoles.forEach((role: string) => {
+      Roles.createRole(role);
+    });
+  }
+
+  // Create admin user if one doesn't exist
+  if (Meteor.users.find().count() === 0) {
+    const user = Accounts.createUser({
+      email: Meteor.settings.adminEmail,
+      password: Meteor.settings.adminPassword,
+    });
+
+    Roles.addUsersToRoles(user, 'admin');
+  }
+
   // If the Links collection is empty, add some data.
   if (await LinksCollection.find().countAsync() === 0) {
     await insertLink({
