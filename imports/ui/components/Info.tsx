@@ -1,11 +1,10 @@
 import React from 'react';
-import { useTracker } from 'meteor/react-meteor-data';
+import { useFind, useSubscribe } from 'meteor/react-meteor-data';
 import { LinksCollection, Link } from '../../api/links';
 
 export const Info = () => {
-  const links = useTracker(() => {
-    return LinksCollection.find().fetch();
-  });
+  const loading = useSubscribe('links');
+  const links = useFind(() => LinksCollection.find({}));
 
   const makeLink = (link: Link) => {
     return (
@@ -18,7 +17,11 @@ export const Info = () => {
   return (
     <div className='p-4'>
       <h2 className='pb-2 text-lg font-semibold'>Learn Meteor!</h2>
-      <ul>{links.map(makeLink)}</ul>
+      {
+        loading()
+          ? <div>Loading...</div>
+          : <ul>{links.map(makeLink)}</ul>
+      }
     </div>
   );
 };
